@@ -1,0 +1,26 @@
+name = "qdate"
+
+[install]
+completion=true
+quiet=false
+compile="min"
+optimize=2
+
+[sysimg]
+incremental=true
+filter_stdlibs=false
+
+[sysimg.precompile]
+statements_file = ["deps/statements.jl"]
+
+[application]
+incremental=true
+filter_stdlibs=false
+
+[application.precompile]
+statements_file = ["deps/statements.jl"]
+
+[download]
+host="github.com"
+user="antimon2"
+repo="QDatesCLI.jl"

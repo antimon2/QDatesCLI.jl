@@ -1,0 +1,9 @@
+name = "QDatesCLI"
+uuid = "7dbcc3b2-3e92-46ec-97ea-28198d791f4a"
+authors = ["GOTOH Shunsuke <antimon2.me@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Comonicon = "863f3e99-da2a-4334-8734-de3dacbe5542"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+QDates = "25f12f5a-a783-5f9a-af99-e55629686113"
